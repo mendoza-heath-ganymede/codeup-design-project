@@ -1,0 +1,65 @@
+body{
+    font-family: 'Abel', sans-serif;
+
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+}
+.red-design{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.orange-develop{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.green-support{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.blue-host{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+.first-pic{
+    background-color: lightgray;
+    border: .5em lightgray;
+    padding: 10px;
+    border-radius: 2%;
+}
+.circle{
+    background-color: #e6563b;
+    margin: 1em 0 1em 1em;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-family: 'Anton', sans-serif;
+
+
+}
+.proj{
+    margin-right: 222px;
+    margin-top: 1em;
+}
+.icons{
+    line-height: 20px;
+    font-size: 9px;
+
+}
+.red-circle{
+    background-color: #e6563b;
+}
+.orange-circle{
+    background-color: #dea03d;
+}
+.green-circle{
+    background-color: #7cb06c;
+}
+.blue-circle{
+    background-color: #00aba9;
+}
