@@ -43,8 +43,10 @@ h2{
 
 }
 .proj{
-    margin-right: 222px;
+    /*margin-right: 222px;*/
     margin-top: 1em;
+    padding: 0;
+
 }
 .icons{
     line-height: 20px;
