@@ -15,6 +15,9 @@ h2{
 main{
 
 }
+section {
+    margin-bottom: 4em;
+}
 .logo{
     position: relative;
     margin-top: 0;
@@ -29,6 +32,8 @@ main{
     justify-content: center;
     margin-top: 2em;
     margin-bottom: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
 }
 nav{
     margin-bottom: 4em;
@@ -131,11 +136,59 @@ nav{
 .blue-circle{
     background-color: #00aba9;
 }
+
+@media screen and (max-width: 575px) {
+    .xs-hide {
+        display: none;
+    }
+}
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .green-support {
         margin-top: 1em;
     }
 
+    .blue-host {
+        margin-top: 1em;
+    }
+    .first-pic {
+        height: 166px;
+    }
+    .nav-sec-1 {
+        position: relative;
+        bottom: 8em;
+        right: 3em;
+    }
+    .nav-sec-2 {
+        position: relative;
+        bottom: 8em;
+        left: 3em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        position: relative;
+        bottom: 1.5em;
+        right: 20em;
+    }
+    .title {
+        position: relative;
+        bottom: 2.1em;
+        right: 4em;
+    }
+    .md-single {
+        position: relative;
+        bottom: 8em;
+        left: 19em;
+    }
+    .md-trick{
+        position: relative;
+        bottom: 8em;
+        left: 20em;
+    }
+    .green-support {
+        margin-top: 1em;
+    }
     .blue-host {
         margin-top: 1em;
     }
