@@ -197,10 +197,26 @@ nav{
         height:50px;
         /*float: left;*/
 
+
     }
     .head-text{
         font-family: 'Anton', sans-serif;
         display: flex;
         margin:0 10px 2em;
+    }
+    .last-tweet{
+        font-weight: bold;
+        display: flex;
+        align-items: flex-start;
+        height: 24px;
+        margin-bottom: 1em;
+    }
+    .bird{
+        font-size: 24px;
+        color: deepskyblue;
+        margin-right: 1em;
+    }
+    .the-last{
+        margin-bottom: 2em;
     }
 }
